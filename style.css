@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.malla {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.semestre {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.ramo {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #9b5de5; /* 💜 NO APROBADO */
+  color: white;
+}
+
+.ramo.aprobado {
+  background: #f4a3c4; /* 🩷 APROBADO */
+  color: black;
+}
+
+.ramo.bloqueado {
+  background: #bdbdbd; /* ⚙️ BLOQUEADO */
+  color: #555;
+  cursor: not-allowed;
+}
