@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Interactiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Malla Obstetricia</h1>
+
+<div class="malla">
+
+  <div class="semestre">
+    <h2>1° Semestre</h2>
+    <button class="ramo" data-id="anatomia">Anatomía</button>
+    <button class="ramo" data-id="biologia">Biología</button>
+  </div>
+
+  <div class="semestre">
+    <h2>2° Semestre</h2>
+    <button class="ramo bloqueado" data-id="fisiologia" data-prereq="anatomia">
+      Fisiología
+    </button>
+    <but
